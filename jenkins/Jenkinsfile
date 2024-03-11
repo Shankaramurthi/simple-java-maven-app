@@ -31,5 +31,10 @@ pipeline {
                 echo "This is the stage 6"
             }
         }
+        stage ("new stage") {
+            steps {
+                echo "This is the new stage"
+            }
+        }
     }
 }
